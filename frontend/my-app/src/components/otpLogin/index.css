@@ -1,0 +1,30 @@
+.icon{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.container{
+  margin-top: 50px;
+}
+.numform{
+  text-align: center;
+}
+.side{
+  padding-top: 150px;
+}
+.btn{
+  color: ffff;
+  background-color: #813afe !important;
+  border-color: #813afe !important;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.otp{
+width: 800px;
+}
+.re-enter{
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,13 @@
+const restaurent = require("../models/restaurent")
+///////////////////////////////////////////////////////////////////////////////////////////
+// Create / Register a user to website
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+//LOGIN User
+exports.getAllRestaurents = async (req, res) => {
+    const user = await restaurent.find();
+    res.status(200).json({
+        success: true,
+        user
+    })
+}
